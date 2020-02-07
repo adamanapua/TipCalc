@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #FFFFF0;
+    background-image: url(https://graphicriver.img.customer.envatousercontent.com/files/86232890/Calculator%20a%20background590.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=c0882fa83dab39e4597f4d2f55bd9642);
 }
 
 #outline {
@@ -34,13 +34,13 @@ body {
     font-family: 'Work Sans';
     font-size: 100%;
     font-weight: 600;
-    color: #F5F5DC;
+    color: #000000;
 }
 
 input[type=text] {
-    border: 5px solid #F889A1;
+    border: 5px solid #33A6FF;
     width: 70%;
-    padding: 15px 20px;
+    padding: 10px 15px;
     padding-left: 40px;
     box-sizing: border-box;
     font-size: 25px;
@@ -59,10 +59,8 @@ input[type=text] {
     font-size: 16px;
     font-family: 'Work Sans';
     text-decoration-color: white;
-    -webkit-transition-duration: 0.4s;
-     transition-duration: 0.4s;
-     box-shadow: 0 9px rgb(77, 77, 77);
-     border-radius: 5px;
+    box-shadow: 0 9px rgb(77, 77, 77);
+    border-radius: 5px;
     color: black;
     font-size: 20px;
 
@@ -70,14 +68,7 @@ input[type=text] {
 
 .button:active {
     box-shadow: 0 5px black;
-    background-color: #B2425C;
+    background-color: #33A6FF;
   transform: translateY(4px);
   }
   
-  .dollar {
-      padding: 11px;
-  }
-
-  .percent {
-      padding: 11px;
-  }
