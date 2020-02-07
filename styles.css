@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #FFFFF0;
+}
+
+#outline {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+
+#tips {
+    width: 80%;
+    max-width: 500px;
+    min-width: 150px;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.label {
+    align-self: flex-start;
+    padding-left: 15%;
+    font-family: 'Work Sans';
+    font-size: 100%;
+    font-weight: 600;
+    color: #F5F5DC;
+}
+
+input[type=text] {
+    border: 5px solid #F889A1;
+    width: 70%;
+    padding: 15px 20px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    font-size: 25px;
+
+}
+
+
+.button {
+    background-color: #C0C0C0; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Work Sans';
+    text-decoration-color: white;
+    -webkit-transition-duration: 0.4s;
+     transition-duration: 0.4s;
+     box-shadow: 0 9px rgb(77, 77, 77);
+     border-radius: 5px;
+    color: black;
+    font-size: 20px;
+
+}
+
+.button:active {
+    box-shadow: 0 5px black;
+    background-color: #B2425C;
+  transform: translateY(4px);
+  }
+  
+  .dollar {
+      padding: 11px;
+  }
+
+  .percent {
+      padding: 11px;
+  }
